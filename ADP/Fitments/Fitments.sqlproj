@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>CentralDB</Name>
+    <Name>Fitments</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{57e67417-79cd-4db1-aa85-2a46ba6968d5}</ProjectGuid>
+    <ProjectGuid>{1966b7a9-6599-4094-8963-56e81f91e25a}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>CentralDB</RootNamespace>
-    <AssemblyName>CentralDB</AssemblyName>
+    <RootNamespace>Fitments</RootNamespace>
+    <AssemblyName>Fitments</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -58,44 +58,15 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="AAIAPartTypes.sql" />
-    <Build Include="AmazonFieldGroups.sql" />
-    <Build Include="AmazonTemplateFields.sql" />
-    <Build Include="AmazonTemplateVariables.sql" />
-    <Build Include="Aspirations.sql" />
-    <Build Include="BodyTypes.sql" />
-    <Build Include="CharacterPointValues.sql" />
-    <Build Include="Computers.sql" />
-    <Build Include="ComputerUsersTable.sql" />
-    <Build Include="Conditions.sql" />
-    <Build Include="CylinderHeadTypes.sql" />
-    <Build Include="DriveTypes.sql" />
-    <Build Include="EngineDesignations.sql" />
-    <Build Include="Excel Sheet Version.sql" />
-    <Build Include="FinaleProductFields.sql" />
-    <Build Include="FitmentSources.sql" />
-    <Build Include="FitmentTypes.sql" />
-    <Build Include="FuelDeliverySubtypes.sql" />
-    <Build Include="FuelDeliveryTypes.sql" />
-    <Build Include="FuelTypes.sql" />
-    <Build Include="GTINs.sql" />
-    <Build Include="KeyProductFeatures.sql" />
-    <Build Include="Manufacturers.sql" />
-    <Build Include="Orientations.sql" />
-    <Build Include="OxygenSensorPositions.sql" />
-    <Build Include="ShippingMethods.sql" />
-    <Build Include="ShippingTemplate.sql" />
-    <Build Include="Sonority Hierarchy.sql" />
-    <Build Include="SparkPlugTypes.sql" />
-    <Build Include="States.sql" />
-    <Build Include="TransControlTypes.sql" />
-    <Build Include="TransmissionMfrCodes.sql" />
-    <Build Include="TransmissionTypes.sql" />
-    <Build Include="Update_Delete.sql" />
-    <Build Include="WalmartFields.sql" />
-    <Build Include="WeightUnits.sql" />
+    <Build Include="AutoCombineCombos.sql" />
+    <Build Include="ComboList.sql" />
+    <Build Include="CompareList.sql" />
+    <Build Include="CompatibilitiesList.sql" />
+    <Build Include="Fitments Version.sql" />
+    <Build Include="Part1.sql" />
+    <Build Include="Part2.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="CentralDB.refactorlog" />
+    <RefactorLog Include="Fitments.refactorlog" />
   </ItemGroup>
 </Project>

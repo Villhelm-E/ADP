@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e8e9d7f7-1cc7-4a5b-a5ec-9969b589e955" ChangeDateTime="05/13/2022 16:55:18">
+    <Property Name="ElementName" Value="[dbo].[Permits].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f8191b2a-592f-4154-9d41-51687d22550e" ChangeDateTime="05/13/2022 16:56:28">
+    <Property Name="ElementName" Value="[dbo].[Permits].[ContactPhoneNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ContactPhoneNum" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="41108ac8-65b3-49cf-a7ab-916dd2e043b5" ChangeDateTime="05/13/2022 16:56:31">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyZipCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CompanyZip" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dfd5ca8d-b645-4a05-8cfc-1d631f599589" ChangeDateTime="05/13/2022 16:56:40">
+    <Property Name="ElementName" Value="[dbo].[Permits].[ContactPhoneNum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ContactPhone" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d0e937ce-4da6-461e-a899-ceda79659809" ChangeDateTime="05/13/2022 16:56:43">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyPhoneNum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CompanyPhone" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="21d91b40-e04a-4e80-8258-5e9b6c980716" ChangeDateTime="05/13/2022 16:57:14">
+    <Property Name="ElementName" Value="[dbo].[Seller Permits Version].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Seller Permits Version]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+</Operations>
