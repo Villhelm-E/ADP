@@ -56,46 +56,50 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="AAIAPartTypes.sql" />
-    <Build Include="AmazonFieldGroups.sql" />
-    <Build Include="AmazonTemplateFields.sql" />
-    <Build Include="AmazonTemplateVariables.sql" />
-    <Build Include="Aspirations.sql" />
-    <Build Include="BodyTypes.sql" />
-    <Build Include="CharacterPointValues.sql" />
-    <Build Include="Computers.sql" />
-    <Build Include="ComputerUsersTable.sql" />
-    <Build Include="Conditions.sql" />
-    <Build Include="CylinderHeadTypes.sql" />
-    <Build Include="DriveTypes.sql" />
-    <Build Include="EngineDesignations.sql" />
-    <Build Include="Excel Sheet Version.sql" />
-    <Build Include="FinaleProductFields.sql" />
-    <Build Include="FitmentSources.sql" />
-    <Build Include="FitmentTypes.sql" />
-    <Build Include="FuelDeliverySubtypes.sql" />
-    <Build Include="FuelDeliveryTypes.sql" />
-    <Build Include="FuelTypes.sql" />
-    <Build Include="GTINs.sql" />
-    <Build Include="KeyProductFeatures.sql" />
-    <Build Include="Manufacturers.sql" />
-    <Build Include="Orientations.sql" />
-    <Build Include="OxygenSensorPositions.sql" />
-    <Build Include="ShippingMethods.sql" />
-    <Build Include="ShippingTemplate.sql" />
-    <Build Include="Sonority Hierarchy.sql" />
-    <Build Include="SparkPlugTypes.sql" />
-    <Build Include="States.sql" />
-    <Build Include="TransControlTypes.sql" />
-    <Build Include="TransmissionMfrCodes.sql" />
-    <Build Include="TransmissionTypes.sql" />
-    <Build Include="Update_Delete.sql" />
-    <Build Include="WalmartFields.sql" />
-    <Build Include="WeightUnits.sql" />
+    <Build Include="dbo\Tables\AAIAPartTypes.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="CentralDB.refactorlog" />
+    <RefactorLog Include="dbo\Tables\CentralDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\AmazonFieldGroups.sql" />
+    <Build Include="dbo\Tables\AmazonTemplateFields.sql" />
+    <Build Include="dbo\Tables\AmazonTemplateVariables.sql" />
+    <Build Include="dbo\Tables\Aspirations.sql" />
+    <Build Include="dbo\Tables\BodyTypes.sql" />
+    <Build Include="dbo\Tables\CharacterPointValues.sql" />
+    <Build Include="dbo\Tables\Computers.sql" />
+    <Build Include="dbo\Tables\ComputerUsersTable.sql" />
+    <Build Include="dbo\Tables\Conditions.sql" />
+    <Build Include="dbo\Tables\CylinderHeadTypes.sql" />
+    <Build Include="dbo\Tables\DriveTypes.sql" />
+    <Build Include="dbo\Tables\EngineDesignations.sql" />
+    <Build Include="dbo\Tables\Excel Sheet Version.sql" />
+    <Build Include="dbo\Tables\FinaleProductFields.sql" />
+    <Build Include="dbo\Tables\FitmentSources.sql" />
+    <Build Include="dbo\Tables\FitmentTypes.sql" />
+    <Build Include="dbo\Tables\FuelDeliverySubtypes.sql" />
+    <Build Include="dbo\Tables\FuelDeliveryTypes.sql" />
+    <Build Include="dbo\Tables\FuelTypes.sql" />
+    <Build Include="dbo\Tables\GTINs.sql" />
+    <Build Include="dbo\Tables\KeyProductFeatures.sql" />
+    <Build Include="dbo\Tables\Manufacturers.sql" />
+    <Build Include="dbo\Tables\Orientations.sql" />
+    <Build Include="dbo\Tables\OxygenSensorPositions.sql" />
+    <Build Include="dbo\Tables\ShippingMethods.sql" />
+    <Build Include="dbo\Tables\ShippingTemplate.sql" />
+    <Build Include="dbo\Tables\Sonority Hierarchy.sql" />
+    <Build Include="dbo\Tables\SparkPlugTypes.sql" />
+    <Build Include="dbo\Tables\States.sql" />
+    <Build Include="dbo\Tables\TransControlTypes.sql" />
+    <Build Include="dbo\Tables\TransmissionMfrCodes.sql" />
+    <Build Include="dbo\Tables\TransmissionTypes.sql" />
+    <Build Include="dbo\Tables\Update_Delete.sql" />
+    <Build Include="dbo\Tables\WalmartFields.sql" />
+    <Build Include="dbo\Tables\WeightUnits.sql" />
   </ItemGroup>
 </Project>

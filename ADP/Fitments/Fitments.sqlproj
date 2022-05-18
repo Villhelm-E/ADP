@@ -56,17 +56,21 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="AutoCombineCombos.sql" />
-    <Build Include="ComboList.sql" />
-    <Build Include="CompareList.sql" />
-    <Build Include="CompatibilitiesList.sql" />
-    <Build Include="Fitments Version.sql" />
-    <Build Include="Part1.sql" />
-    <Build Include="Part2.sql" />
+    <Build Include="dbo\Tables\AutoCombineCombos.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="Fitments.refactorlog" />
+    <RefactorLog Include="dbo\Tables\Fitments.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\ComboList.sql" />
+    <Build Include="dbo\Tables\CompareList.sql" />
+    <Build Include="dbo\Tables\CompatibilitiesList.sql" />
+    <Build Include="dbo\Tables\Fitments Version.sql" />
+    <Build Include="dbo\Tables\Part1.sql" />
+    <Build Include="dbo\Tables\Part2.sql" />
   </ItemGroup>
 </Project>
