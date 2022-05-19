@@ -1,14 +1,14 @@
 ﻿CREATE TABLE [dbo].[Permits]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [Date] NCHAR(10) NULL, 
-    [PermitNum] NCHAR(10) NULL, 
-    [CompanyName] NCHAR(10) NULL, 
-    [ContactName] NCHAR(10) NULL, 
-    [CompanyAddress] NCHAR(10) NULL, 
-    [CompanyCity] NCHAR(10) NULL, 
-    [CompanyState] NCHAR(10) NULL, 
-    [CompanyZip] NCHAR(10) NULL, 
-    [ContactPhone] NCHAR(10) NULL, 
-    [CompanyPhone] NCHAR(10) NULL
+    [DateAdded] NCHAR(255) NULL, 
+    [PermitNumber] NCHAR(255) NULL, 
+    [BusinessName] NCHAR(255) NULL, 
+    [ContactName] NCHAR(255) NULL, 
+    [Address] NCHAR(255) NULL, 
+    [City] NCHAR(255) NULL, 
+    [State] NCHAR(255) NULL, 
+    [ZipCode] NCHAR(255) NULL, 
+    [PhoneNumber] NCHAR(255) NULL, 
+    [FaxNumber] NCHAR(255) NULL
 )

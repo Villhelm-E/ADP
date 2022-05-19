@@ -91,4 +91,319 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="d6a81392-9cd4-4b5a-b0ba-0d507f260c3f" ChangeDateTime="05/19/2022 22:35:49">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[Part1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstPart" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9997add1-bf8a-4b57-8b0c-f5976c266d0a" ChangeDateTime="05/19/2022 22:36:03">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[Part1Type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PartType1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e4291b55-6ab6-4d89-8651-c0928cc98c9a" ChangeDateTime="05/19/2022 22:36:13">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[Part1Manufacturer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Brand1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f85c5266-7889-43be-8b71-6e60d01e7a50" ChangeDateTime="05/19/2022 22:36:22">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[Part2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SecondPart" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9a238035-6d10-43b1-8993-a7481d79408c" ChangeDateTime="05/19/2022 22:36:32">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[Part2Type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PartType2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5b22f89d-6d78-4328-8d7e-75f129eb130f" ChangeDateTime="05/19/2022 22:36:39">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[Part2Manufacturer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Brand2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27ec64ef-ab2d-4a07-91ad-57606ab29c7b" ChangeDateTime="05/19/2022 22:36:46">
+    <Property Name="ElementName" Value="[dbo].[AutoCombineCombos].[FitmentCount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AutoCombineCombos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Count" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b0451787-e000-4dec-aa08-d38c47dd0bf5" ChangeDateTime="05/19/2022 22:37:36">
+    <Property Name="ElementName" Value="[dbo].[ComboList].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ComboList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ComboID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="168f0730-bcb1-4fe8-aeba-8a4156c49402" ChangeDateTime="05/19/2022 22:37:43">
+    <Property Name="ElementName" Value="[dbo].[ComboList].[Combination]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ComboList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Combo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f611a827-3581-4ef0-815d-8714b4d7c9db" ChangeDateTime="05/19/2022 22:37:50">
+    <Property Name="ElementName" Value="[dbo].[ComboList].[PrefixCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ComboList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ComboCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a7d69d57-17f3-44b5-a3d9-b70af8ac0507" ChangeDateTime="05/19/2022 22:38:04">
+    <Property Name="ElementName" Value="[dbo].[ComboList].[BTGCategory]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ComboList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eBayCatID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="77f53141-7694-48f4-8dcc-72a08b4535e0" ChangeDateTime="05/19/2022 22:38:40">
+    <Property Name="ElementName" Value="[dbo].[CompareList].[Part1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompareList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstPart" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f877ce65-1fa1-4d67-b947-fbbfdb4dd65b" ChangeDateTime="05/19/2022 22:38:54">
+    <Property Name="ElementName" Value="[dbo].[CompareList].[Part2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompareList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SecondPart" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9a685074-537d-4800-9847-eee546e9ce28" ChangeDateTime="05/19/2022 22:39:19">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Part]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="part" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d2343430-0eac-4d5b-aad6-9b333015a8de" ChangeDateTime="05/19/2022 22:39:31">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[SellerID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="brand_code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa3151a4-fc3a-44b5-8cb9-ab1b2d68702e" ChangeDateTime="05/19/2022 22:39:35">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Make]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="make" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f98084f8-fe76-4c2a-8a3d-b5ef2c3d98de" ChangeDateTime="05/19/2022 22:39:38">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Model]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="model" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b646c568-56d4-4115-8b15-cb3b7f9052bd" ChangeDateTime="05/19/2022 22:39:41">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Year]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="year" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2da47313-1516-459f-abaf-fe23d33fb074" ChangeDateTime="05/19/2022 22:39:54">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[PartType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="partterminologyname" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d526d435-239e-47b2-9328-87651584f2d5" ChangeDateTime="05/19/2022 22:40:02">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[comments]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="notes" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1995de5c-91b6-4e45-be74-ba0ce9ad3f82" ChangeDateTime="05/19/2022 22:40:10">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[cylinders?]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="qty" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="482231a7-2b8a-4d1b-8a74-8f2118e6627d" ChangeDateTime="05/19/2022 22:40:15">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="mfrlabel" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c03d9071-af38-4fdf-b2f3-2b5c9e48f476" ChangeDateTime="05/19/2022 22:40:19">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="position" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5771d178-c47f-4ea7-a4fe-1cea77664940" ChangeDateTime="05/19/2022 22:40:23">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Aspiration]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Aspaspirationiration" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="047dfbae-46f7-4567-8ccf-fa6915413329" ChangeDateTime="05/19/2022 22:40:28">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Aspaspirationiration]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="aspiration" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="825b031c-3e5d-4830-98e1-83b01585fa2f" ChangeDateTime="05/19/2022 22:40:33">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[4]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="bedlength" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="131fad2e-4834-4093-aa39-0cbb99f714b8" ChangeDateTime="05/19/2022 22:40:38">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[5]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="bedtype" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3f57f69c-5208-4ad9-9300-fa4a5e0c567e" ChangeDateTime="05/19/2022 22:40:44">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Block]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="brakeabs" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9a4f85d9-6188-4734-8bf0-5d5479b65ea1" ChangeDateTime="05/19/2022 22:40:50">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[Bodynumdoors]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="brakesystem" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="58e90954-2b5e-407d-bd8b-67ffab3bbb88" ChangeDateTime="05/19/2022 22:40:57">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[bodytype]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cc" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6d728d9c-6b48-4af2-8e12-10c141a11fe4" ChangeDateTime="05/19/2022 22:41:00">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[6]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="55e72241-7d8f-49e2-bfbb-c5ad3b84d4ba" ChangeDateTime="05/19/2022 22:41:21">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[brakeabs]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="block" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7968e750-0b8e-41a9-aab0-8735685f7c05" ChangeDateTime="05/19/2022 22:41:28">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[brakesystem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="bodynumdoors" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6da0e6e2-a581-4b78-9ec6-9c8ddfc140f0" ChangeDateTime="05/19/2022 22:41:46">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[7]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="brakesystem" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ca72fee8-5e24-4f21-95cc-78b98e2ed25a" ChangeDateTime="05/19/2022 22:42:00">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[8]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="drivetype" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eec0ed66-436f-4e2d-8e0b-46f6e5eda15c" ChangeDateTime="05/19/2022 22:42:08">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[9]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="enginemfr" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cfcf557d-d57c-413d-ad1f-98a2b1f400d6" ChangeDateTime="05/19/2022 22:42:14">
+    <Property Name="ElementName" Value="[dbo].[CompatibilitiesList].[10]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CompatibilitiesList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="engineversion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3b4f4579-f696-40b2-9c49-fd30c33a85ca" ChangeDateTime="05/19/2022 22:48:31">
+    <Property Name="ElementName" Value="[dbo].[Fitments Version].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fitments Version]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37241fb5-15ae-4bee-b8e4-79d06af0d5e4" ChangeDateTime="05/19/2022 22:48:54">
+    <Property Name="ElementName" Value="[dbo].[Part1].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PartId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="946aa47c-cb78-4926-851d-fd1653b1060e" ChangeDateTime="05/19/2022 22:48:59">
+    <Property Name="ElementName" Value="[dbo].[Part1].[PartId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PartID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6444168e-d8ba-4025-9b6a-cd1925cd8d18" ChangeDateTime="05/19/2022 22:49:13">
+    <Property Name="ElementName" Value="[dbo].[Part1].[FitFrom]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InterchangeSource" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="08455399-ac2b-4b07-8bea-dcf56beb9ad1" ChangeDateTime="05/19/2022 22:49:19">
+    <Property Name="ElementName" Value="[dbo].[Part1].[Manufacturer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrandName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3d79110a-4b7c-47d1-b93a-ec2f19d44f9e" ChangeDateTime="05/19/2022 22:49:30">
+    <Property Name="ElementName" Value="[dbo].[Part2].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PartID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b4f150b5-e782-4020-a807-eab199c0771d" ChangeDateTime="05/19/2022 22:49:39">
+    <Property Name="ElementName" Value="[dbo].[Part2].[FitFrom]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InterchangeSource" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c8ad8486-545b-462d-8251-d223b8f8ad97" ChangeDateTime="05/19/2022 22:49:45">
+    <Property Name="ElementName" Value="[dbo].[Part2].[Manufacturer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Part2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrandName" />
+  </Operation>
 </Operations>

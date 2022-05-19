@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[CharacterPointValues]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [Letter] NCHAR(10) NULL, 
-    [Value] INT NULL, 
-    [Type] NCHAR(10) NULL
+    [Character] NCHAR(255) NULL, 
+    [PointValue] INT NULL, 
+    [CharacterType] NCHAR(255) NULL
 )

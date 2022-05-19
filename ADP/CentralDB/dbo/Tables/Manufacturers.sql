@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Manufacturers]
 (
 	[ManufacturerID] INT NOT NULL PRIMARY KEY, 
-    [FullName] NCHAR(10) NULL, 
-    [ShortName] NCHAR(10) NULL, 
-    [AmazonSeller] NCHAR(10) NULL, 
-    [SuffixCode] NCHAR(10) NULL
+    [ManufacturerFull] NCHAR(255) NULL, 
+    [ManufacturerShort] NCHAR(255) NULL, 
+    [AmazonSeller] NCHAR(255) NULL, 
+    [SuffixCode] NCHAR(255) NULL
 )

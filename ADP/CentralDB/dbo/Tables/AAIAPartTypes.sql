@@ -1,15 +1,15 @@
 ﻿CREATE TABLE [dbo].[AAIAPartTypes]
 (
 	[PartTypeID] INT NOT NULL PRIMARY KEY, 
-    [AAIAPartType] NCHAR(10) NOT NULL, 
-    [PrefixCode] NCHAR(10) NULL, 
-    [FinaleCategory] NCHAR(10) NULL, 
-    [ShipStationCategory] NCHAR(10) NULL, 
-    [BTGValue] NCHAR(10) NULL, 
-    [EbayCategoryID] NCHAR(10) NULL, 
-    [AlternateName] NCHAR(10) NULL, 
+    [AAIAPartType] NCHAR(255) NOT NULL, 
+    [PrefixCode] NCHAR(255) NULL, 
+    [FinaleCategory] NCHAR(255) NULL, 
+    [ShipStationCategory] NCHAR(255) NULL, 
+    [BTGValue] NCHAR(255) NULL, 
+    [EbayCategoryID] NCHAR(255) NULL, 
+    [AlternateName] NCHAR(255) NULL, 
     [PrimeCode] INT NOT NULL, 
-    [PartNumPrefix] NCHAR(10) NULL
+    [PartNumPrefix] NCHAR(255) NULL
 )
 
 GO

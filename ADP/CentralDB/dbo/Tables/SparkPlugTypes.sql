@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[SparkPlugTypes]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [Type] NCHAR(10) NOT NULL
+    [Type] NCHAR(255) NULL
 )

@@ -1,14 +1,14 @@
 ﻿CREATE TABLE [dbo].[AmazonTemplateFields]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [FieldDisplay] NCHAR(10) NULL, 
-    [FieldTooltip] NCHAR(10) NULL, 
-    [FieldName] NCHAR(10) NULL, 
-    [Description] NCHAR(10) NULL, 
-    [DescriptionTooltip] NCHAR(10) NULL, 
-    [Group] NCHAR(10) NULL, 
-    [Invisible] INT NULL, 
-    [Page] NCHAR(10) NULL, 
-    [Order] NCHAR(10) NULL, 
-    [Required] INT NULL
+    [Display_Name] NCHAR(255) NULL, 
+    [Label_Name] NCHAR(255) NULL, 
+    [Field_Name] NCHAR(255) NULL, 
+    [Definition_and_Use] NCHAR(255) NULL, 
+    [Accepted_Values] NCHAR(255) NULL, 
+    [Organization] NCHAR(255) NULL, 
+    [Active] BIT NULL, 
+    [Page] NCHAR(255) NULL, 
+    [TemplateOrder] NCHAR(255) NULL, 
+    [Required] BIT NULL
 )

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[WeightUnits]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [Unit] NCHAR(10) NULL
+    [WeightUnit] NCHAR(255) NULL
 )

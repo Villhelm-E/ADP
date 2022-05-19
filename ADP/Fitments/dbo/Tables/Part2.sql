@@ -1,9 +1,9 @@
 ﻿CREATE TABLE [dbo].[Part2]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
-    [PartNum] NCHAR(10) NULL, 
-    [PartType] NCHAR(10) NULL, 
-    [Source] NCHAR(10) NULL, 
-    [FitFrom] NCHAR(10) NULL, 
-    [Manufacturer] NCHAR(10) NULL
+	[PartID] INT NOT NULL PRIMARY KEY, 
+    [PartNum] NCHAR(255) NULL, 
+    [PartType] NCHAR(255) NULL, 
+    [Source] NCHAR(255) NULL, 
+    [InterchangeSource] NCHAR(255) NULL, 
+    [BrandName] NCHAR(255) NULL
 )

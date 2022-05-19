@@ -42,4 +42,74 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="8508e9c2-2abb-4a49-8ef6-f58a9d60d1ab" ChangeDateTime="05/19/2022 22:50:25">
+    <Property Name="ElementName" Value="[dbo].[Permits].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateAdded" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a410bef-bd12-439c-98a1-fade11edd665" ChangeDateTime="05/19/2022 22:50:30">
+    <Property Name="ElementName" Value="[dbo].[Permits].[PermitNum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PermitNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7781d204-977c-4551-bc73-bdc30687f85e" ChangeDateTime="05/19/2022 22:50:37">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BusinessName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39d33945-9826-4e14-a96b-1f8de43c8c93" ChangeDateTime="05/19/2022 22:50:45">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyAddress]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Address" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="16ea5fd9-1b98-4294-b843-41cecde5a859" ChangeDateTime="05/19/2022 22:50:51">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyCity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="City" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f56c9a3-f487-47fb-9924-1e9d2b66c444" ChangeDateTime="05/19/2022 22:51:00">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyState]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="State" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82840895-be13-4ce3-bedc-0823a86b3bbc" ChangeDateTime="05/19/2022 22:51:04">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyZip]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ZipCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="46988e57-8b34-4d1c-ae0c-bf3635e614cf" ChangeDateTime="05/19/2022 22:51:14">
+    <Property Name="ElementName" Value="[dbo].[Permits].[ContactPhone]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PhoneNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b74df85b-1f6f-4e20-aa2d-8688cae90571" ChangeDateTime="05/19/2022 22:51:22">
+    <Property Name="ElementName" Value="[dbo].[Permits].[CompanyPhone]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permits]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FaxNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49362659-9112-4e58-b57a-6460cb9f89a6" ChangeDateTime="05/19/2022 22:51:56">
+    <Property Name="ElementName" Value="[dbo].[Seller Permits Version].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Seller Permits Version]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VID" />
+  </Operation>
 </Operations>

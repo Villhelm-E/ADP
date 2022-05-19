@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Orientations]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [Orientation] NCHAR(10) NOT NULL
+    [Orientation] NCHAR(255) NULL
 )

@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[States]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
-    [State] NCHAR(10) NOT NULL, 
-    [StateCode] NCHAR(10) NOT NULL
+	[StateID] INT NOT NULL PRIMARY KEY, 
+    [StateName] NCHAR(255) NULL, 
+    [StateAbbr] NCHAR(255) NULL
 )

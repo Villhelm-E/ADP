@@ -1,12 +1,12 @@
 ﻿CREATE TABLE [dbo].[AutoCombineCombos]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
-    [Part1] NCHAR(10) NULL, 
-    [Part1Type] NCHAR(10) NULL, 
-    [Part1Manufacturer] NCHAR(10) NULL, 
-    [Part2] NCHAR(10) NULL, 
-    [Part2Type] NCHAR(10) NULL, 
-    [Part2Manufacturer] NCHAR(10) NULL, 
-    [FitmentCount] NCHAR(10) NULL, 
-    [Source] NCHAR(10) NULL
+    [FirstPart] NCHAR(255) NULL, 
+    [PartType1] NCHAR(255) NULL, 
+    [Brand1] NCHAR(255) NULL, 
+    [SecondPart] NCHAR(255) NULL, 
+    [PartType2] NCHAR(255) NULL, 
+    [Brand2] NCHAR(255) NULL, 
+    [Count] INT NULL, 
+    [Source] NCHAR(255) NULL
 )

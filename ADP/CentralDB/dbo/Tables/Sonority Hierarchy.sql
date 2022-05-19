@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Sonority Hierarchy]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
-    [Letter] NCHAR(10) NOT NULL, 
-    [Sonority] NCHAR(10) NOT NULL
+	[CharacterID] INT NOT NULL PRIMARY KEY, 
+    [Character] NCHAR(255) NULL, 
+    [SonorityValue] INT NULL
 )
