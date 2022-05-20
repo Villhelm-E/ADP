@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[ShippingTemplate]
+﻿CREATE TABLE [dbo].[ShippingTemplates]
 (
 	[ID] INT NOT NULL PRIMARY KEY, 
     [ShippingTemplate] NCHAR(255) NULL, 
