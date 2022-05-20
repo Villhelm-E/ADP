@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[CompatibilitiesList]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
+	[ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [part] NCHAR(255) NULL, 
     [brand_code] NCHAR(255) NULL, 
     [make] NCHAR(255) NULL, 

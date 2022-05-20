@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Permits]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
+	[ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [DateAdded] NCHAR(255) NULL, 
     [PermitNumber] NCHAR(255) NULL, 
     [BusinessName] NCHAR(255) NULL, 

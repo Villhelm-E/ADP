@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[AmazonTemplateFields]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
+	[ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [Display_Name] NCHAR(255) NULL, 
     [Label_Name] NCHAR(255) NULL, 
     [Field_Name] NCHAR(255) NULL, 

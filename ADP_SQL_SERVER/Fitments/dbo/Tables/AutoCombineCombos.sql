@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[AutoCombineCombos]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
+	[ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [FirstPart] NCHAR(255) NULL, 
     [PartType1] NCHAR(255) NULL, 
     [Brand1] NCHAR(255) NULL, 

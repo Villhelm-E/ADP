@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[FuelTypes]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
+	[ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [FuelType] NCHAR(255) NULL
 )

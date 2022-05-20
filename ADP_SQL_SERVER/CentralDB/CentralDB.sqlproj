@@ -92,7 +92,7 @@
     <Build Include="dbo\Tables\Orientations.sql" />
     <Build Include="dbo\Tables\OxygenSensorPositions.sql" />
     <Build Include="dbo\Tables\ShippingMethods.sql" />
-    <Build Include="dbo\Tables\ShippingTemplate.sql" />
+    <Build Include="dbo\Tables\ShippingTemplates.sql" />
     <Build Include="dbo\Tables\Sonority Hierarchy.sql" />
     <Build Include="dbo\Tables\SparkPlugTypes.sql" />
     <Build Include="dbo\Tables\States.sql" />
