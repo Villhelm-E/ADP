@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Computers]
 (
 	[ComputerID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
-    [ComputerName] NCHAR(255) NULL, 
-    [ComputerNickName] NCHAR(255) NULL, 
+    [ComputerName] NVARCHAR(255) NULL, 
+    [ComputerNickName] NVARCHAR(255) NULL, 
     [AssignedEmployee] INT NULL
 )

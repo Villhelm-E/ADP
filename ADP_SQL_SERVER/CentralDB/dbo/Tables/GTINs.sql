@@ -1,9 +1,9 @@
 ﻿CREATE TABLE [dbo].[GTINs]
 (
 	[ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
-    [CompanyPrefix] NCHAR(255) NULL, 
-    [GTIN] NCHAR(255) NULL, 
-    [SKU] NCHAR(255) NULL, 
-    [User] NCHAR(255) NULL, 
+    [CompanyPrefix] NVARCHAR(255) NULL, 
+    [GTIN] NVARCHAR(255) NULL, 
+    [SKU] NVARCHAR(255) NULL, 
+    [User] NVARCHAR(255) NULL, 
     [DateReserved] DATETIME2(0) NULL
 )
