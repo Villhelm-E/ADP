@@ -46,7 +46,7 @@
     [submodel] NVARCHAR(255) NULL, 
     [transmissioncontroltype] NVARCHAR(255) NULL, 
     [transmissionmfr] NVARCHAR(255) NULL, 
-    [transmissonmfrcode] NVARCHAR(255) NULL, 
+    [transmissionmfrcode] NVARCHAR(255) NULL, 
     [transmissionnumspeeds] NVARCHAR(255) NULL, 
     [transmissiontype] NVARCHAR(255) NULL, 
     [valvesperengine] NVARCHAR(255) NULL, 
